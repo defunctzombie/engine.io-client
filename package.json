@@ -22,6 +22,9 @@
     "expect.js": "*",
     "istanbul": "*"
   },
+  "browser": {
+    "xmlhttprequest": "./lib/browser-xmlreq.js"
+  },
   "component": {
     "scripts": {
       "engine.io/index.js": "lib/index.js",
