@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "ws": "0.4.25",
-    "xmlhttprequest": "shtylman/node-XMLHttpRequest#c7b444",
+    "xmlhttprequest": "git://github.com/shtylman/node-XMLHttpRequest#c7b444",
     "emitter-component": "0.0.6",
     "engine.io-parser": "0.1.1",
     "debug": "0.7.0"
