@@ -1,4 +1,7 @@
 
+var eio = require('../');
+var expect = require('expect.js');
+
 describe('Transport', function () {
 
   describe('public constructors', function () {

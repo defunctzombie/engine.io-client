@@ -3,7 +3,8 @@
  * Test dependencies.
  */
 
-var util = eio.util
+var util = require('../').util
+var expect = require('expect.js');
 
 /**
  * Tests.

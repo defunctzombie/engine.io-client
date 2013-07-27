@@ -3,7 +3,8 @@
  * Test dependencies.
  */
 
-var parser = eio.parser
+var parser = require('../').parser
+var expect = require('expect.js')
 
 /**
  * Shortcuts

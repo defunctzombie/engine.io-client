@@ -29,10 +29,26 @@
     "mocha": "*",
     "serve": "*",
     "expect.js": "*",
-    "istanbul": "*"
+    "istanbul": "*",
+    "engine.io": "~0.6.3"
   },
   "browser": {
     "xmlhttprequest": "./lib/browser-xmlreq.js"
+  },
+  "testling" : {
+    "files": "./test/browser.js",
+    "server": "./test/server.js",
+    "harness": "mocha-bdd",
+    "browsers": [
+        "ie/8..latest",
+        "chrome/latest",
+        "firefox/latest",
+        "safari/latest",
+        "opera/latest",
+        "iphone/latest",
+        "ipad/latest",
+        "android/latest"
+      ]
   },
   "component": {
     "scripts": {

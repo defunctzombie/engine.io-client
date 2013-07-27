@@ -1,3 +1,5 @@
+var eio = require('../');
+var expect = require('expect.js');
 
 describe('engine.io-client', function () {
 
