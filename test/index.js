@@ -3,3 +3,4 @@ require('./util');
 require('./parser');
 require('./socket');
 require('./transport');
+require('./conn');
