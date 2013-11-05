@@ -15,7 +15,6 @@ clean:
 
 test:
 	@./node_modules/.bin/mocha \
-		--require ./test/common \
 		--reporter $(REPORTER) \
 		$(TESTS)
 

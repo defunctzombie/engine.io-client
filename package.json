@@ -28,13 +28,14 @@
     "debug": "0.7.2"
   },
   "devDependencies": {
+    "zuul": "defunctzombie/zuul#cloud",
     "mocha": "*",
     "serve": "*",
     "expect.js": "*",
     "istanbul": "*"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make test && zuul -- test/index.js"
   },
   "browser": {
     "xmlhttprequest": "./lib/xmlhttprequest.js"
